@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+
 
 import work1 from "../../Assets/Projects/work1.jpg";
 import work2 from "../../Assets/Projects/work2.jpg";
@@ -10,7 +10,7 @@ import work3 from "../../Assets/Projects/WXYZ studio.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
